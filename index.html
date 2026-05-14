@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Biker | Precision E-Bike Workout Tracking</title>
+    <meta name="description" content="The ultimate standalone Apple Watch app for e-bike enthusiasts. Track rider-only power, heart rate, and cadence with precision.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">⚡ <span>E-Biker</span></a>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#metrics">Metrics</a>
+                </div>
+                <a href="#" class="btn btn-primary">Download App</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-content fade-in">
+                <h1>Track your ride, not the <span>motor.</span></h1>
+                <p>E-Biker is the first standalone watchOS app that calculates calories from your power output alone, giving you a true picture of your effort.</p>
+                <div class="cta-group">
+                    <a href="#" class="btn btn-primary">
+                        <i data-lucide="download"></i>
+                        Get the App
+                    </a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in" style="animation-delay: 0.2s">
+                <img src="assets/hero.png" alt="Cyclist on a mountain trail at sunset">
+            </div>
+        </section>
+
+        <section id="features" class="features container">
+            <div class="section-title fade-in">
+                <h2>Engineered for E-Bikers</h2>
+                <p>Most apps inflate your calories based on GPS speed. We use direct power data for scientific accuracy.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card fade-in" style="animation-delay: 0.1s">
+                    <div class="feature-icon"><i data-lucide="zap"></i></div>
+                    <h3>True Human Power</h3>
+                    <p>Connects directly to your Bluetooth power meter to measure exactly how many watts you are putting into the pedals.</p>
+                </div>
+                <div class="feature-card fade-in" style="animation-delay: 0.2s">
+                    <div class="feature-icon"><i data-lucide="heart"></i></div>
+                    <h3>HealthKit Integrated</h3>
+                    <p>Every ride, heart rate sample, and calorie burned is synced directly to Apple Health and counts toward your rings.</p>
+                </div>
+                <div class="feature-card fade-in" style="animation-delay: 0.3s">
+                    <div class="feature-icon"><i data-lucide="watch"></i></div>
+                    <h3>Standalone Watch App</h3>
+                    <p>Leave your phone at home. E-Biker runs entirely on your Apple Watch Ultra or Series 9+.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="metrics" class="mockup-section">
+            <div class="container mockup-container">
+                <div class="mockup-img fade-in">
+                    <img src="assets/mockup.png" alt="E-Biker app on Apple Watch Ultra">
+                </div>
+                <div class="mockup-content fade-in">
+                    <h2>Live Metrics. Minimal Distraction.</h2>
+                    <p>Stay focused on the trail with high-contrast, glanceable metrics designed for the Apple Watch Ultra display.</p>
+                    <ul class="metric-list">
+                        <li class="metric-item">
+                            <i data-lucide="activity"></i>
+                            <div>
+                                <strong>Real-time Wattage</strong>
+                                <p>Human-only power output from your BLE meter.</p>
+                            </div>
+                        </li>
+                        <li class="metric-item">
+                            <i data-lucide="timer"></i>
+                            <div>
+                                <strong>Cadence Tracking</strong>
+                                <p>Maintain your perfect rhythm with live RPM data.</p>
+                            </div>
+                        </li>
+                        <li class="metric-item">
+                            <i data-lucide="flame"></i>
+                            <div>
+                                <strong>Scientific Calories</strong>
+                                <p>Calculated using mechanical efficiency models, not GPS speed.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="strava" class="strava-section container">
+            <div class="strava-card fade-in">
+                <h2>Push to Strava</h2>
+                <p>Seamlessly upload your rides to Strava. Your activities are automatically tagged as "E-Bike Ride" to keep the leaderboards fair and your stats accurate.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 E-Biker App. Built for the ride.</p>
+            <div class="social-links">
+                <a href="#"><i data-lucide="twitter"></i></a>
+                <a href="#"><i data-lucide="instagram"></i></a>
+                <a href="#"><i data-lucide="github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
